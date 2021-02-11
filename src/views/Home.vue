@@ -17,8 +17,7 @@ export default {
   name: 'Home',
   components: {
     ListResults: () => import('@/components/ListResults.vue'),
-    Search: () => import('@/components/Search.vue'),
-    Sort: () => import('@/components/Sort.vue')
+    Search: () => import('@/components/Search.vue')
   },
   data() {
     return {
