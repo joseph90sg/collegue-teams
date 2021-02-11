@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div class="row">
-      <Sort :teams="teams" v-on:handleChange="handleChange"></Sort>
       <Search :teams="teams" v-on:handleChange="handleChange"></Search>
     </div>
     <div class="row">
