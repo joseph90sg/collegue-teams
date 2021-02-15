@@ -5,9 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js"
+    "test": "vue-cli-service test:unit"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -55,16 +54,6 @@
         }
       }
     ]
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      ".*\\.(vue)$": "vue-jest"
-    }
   },
   "browserslist": [
     "> 1%",
